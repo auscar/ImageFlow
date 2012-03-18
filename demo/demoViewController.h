@@ -10,6 +10,9 @@
 @class ImageFlow;
 @interface demoViewController : UIViewController{
     ImageFlow* imgf;
+    NSMutableArray* demoArray;
 }
+
+-(IBAction)loadArrayAction:(id)sender;
 
 @end
